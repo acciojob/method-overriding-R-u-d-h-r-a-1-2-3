@@ -6,7 +6,7 @@ public class Main {
           return "Invoking method from class A";
       }
   }
-  public static class B extends A {
+  public static class B extends A { //hellogit
       @Override
     public String meth(){
           return "Method is overridden in Extendend class B";
